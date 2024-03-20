@@ -9,6 +9,10 @@ section {
   width: 100%;
   box-sizing: border-box;
   padding: 16px;
+  margin: 32px 0px;
+}
+section h1 {
+  text-align: center;
 }
 section p {
   width: 80%;
@@ -38,16 +42,47 @@ section p {
   color: white;
 }
 
+.images img {
+  width: 100%;
+  margin: 18px;
+}
+
+#about * {
+  text-align: center;
+}
+
+#home * {
+  text-align: center;
+}
+
+#gallery {
+  height: -moz-min-content;
+  height: min-content;
+}
+
+#mapLocation {
+  height: -moz-min-content;
+  height: min-content;
+}
+#mapLocation img {
+  height: 50%;
+  width: 100%;
+}
+#mapLocation iframe {
+  height: 50%;
+  width: 100%;
+}
+
 @media (min-width: 992px) {
   h2 {
     width: 50%;
   }
-  section > p {
+  section {
+    width: 80%;
+  }
+  section p {
     width: 40%;
     padding-top: 16px;
-  }
-  section > h1 {
-    text-align: center;
   }
   .navbar-toggler {
     display: none;

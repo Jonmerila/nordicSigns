@@ -17,7 +17,9 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light pt-0">
       <div class="container">
-        <a class="navbar-brand" href="#">Your Logo</a>
+        <a class="navbar-brand" href="#"
+          ><img src="./images/nordicsigns-logo.jpg" alt="NordicSigns Logo"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -49,11 +51,14 @@
       </div>
     </nav>
     <div class="all-sections col-12 d-flex flex-column align-items-center">
-      <section id="home" class="d-flex w-100 flex-column align-items-center">
+      <section
+        id="home"
+        class="d-flex flex-column align-items-center rounded w-80 h-auto"
+      >
         <!-- <h1>Hem</h1> -->
         <h2>
-          "Nordic Signs AB installerar 3 st skyltpyloner till Albybergs
-          Företagspark 2024"
+          Nordic Signs AB installerar 3 st skyltpyloner till Albybergs
+          Företagspark 2024
         </h2>
         <p>
           Under sommaren 2024 installeras 3 st skyltpyloner till Albybergs
@@ -69,21 +74,48 @@
         <!-- Your home content goes here -->
       </section>
 
-      <section id="about">
+      <section
+        id="about"
+        class="w-100 rounded d-flex align-items-center flex-column"
+      >
         <h1>Om oss</h1>
+        <p>Här skriver vi mera om företaget och vilka vi är, text kommer...</p>
         <!-- Your about content goes here -->
       </section>
 
-      <section id="mapLocation">
+      <section id="mapLocation" class="w-80 rounded d-flex flex-column">
         <h1>Karta</h1>
         <div class="map-location">
-          <img src="" alt="" />
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8183.293645074382!2d18.159649999521854!3d59.15208279851568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f7c93f81fbd53%3A0x1a20f52fb706ae99!2sAlbyberg!5e0!3m2!1ssv!2sse!4v1710931363191!5m2!1ssv!2sse"
+            width="400"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
+        <img src="./images/sign-locations.png" alt="Sign locations" />
         <!-- Your services content goes here -->
       </section>
 
-      <section id="gallery">
+      <section id="gallery" class="w-80 rounded">
         <h1>Galleri</h1>
+        <div class="images d-flex flex-column align-items-center">
+          <img
+            src="./images/8.2 albyberg -  signlocation intersection  2024-02-08.jpg"
+            alt="Signlocation intersection"
+          />
+          <img
+            src="./images/8.2 albyberg - signlocation 2024-02-08.jpg"
+            alt="Sign location 2"
+          />
+          <img
+            src="./images/8.2 albyberg - signlocation Dalarövägen 2024-02-08.jpg"
+            alt="Signlocation Dalarövägen"
+          />
+        </div>
         <!-- Your contact content goes here -->
       </section>
     </div>
